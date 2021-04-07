@@ -9,6 +9,20 @@ import "../node_modules/bootstrap/dist/js/bootstrap";
 import "../node_modules/jquery/dist/jquery.slim";
 import "../node_modules/popper.js/dist/popper";
 
+export class index extends Component {
+  render() {
+    return <div></div>;
+  }
+}
+
+export default index;
+
+export default class index extends Component {
+  render() {
+    return <div></div>;
+  }
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

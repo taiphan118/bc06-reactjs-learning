@@ -1,0 +1,21 @@
+angular react là thư viện chứ không phải framework
+1/ cài đặt project:
+npx create-react-app ten-app
+2/ chạy project:
+2.1/ mở terminal ngay tại file package.json
+2.2/ gõ lệnh: npm run
+3/ tài liệu reaactjs: https://reactjs.org/docs/getting-started.html
+4/ flow code reactjs: index.html => index.js => App.js
+5/ reactjs sẽ không hiểu html, mà nó chỉ hiểu jsx ( class => className )
+6/ Lý do dùng component là:
+      - dễ quản lý (chia để trị)
+      - tái sử dụng (ưu tiên hàng đầu)
+7/ điều kiện để tạo ra một component:
+      - tái sử dụng (ưu tiên hàng đầu)
+      - dễ quản lý (chia để trị)
+bonus:
+1/ một website thường có 2 dạng:
+- single page application (chuyển trang mà không bị load) nhanh do chỉ tải data, client: html css js
+- multiple page application (chuyển trang mà bị load) chạy chậm do tải thêm html css js
+2/ về SEO thì multiple page application tốt hơn single page application
+3/ reactjs (single page application) thì không SEO tốt nhưng có framework NEXTJS (https://nextjs.org/) giúp reactjs SEO tốt hơn.

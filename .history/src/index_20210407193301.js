@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-//bootstrap nhúng trong javascript để dễ kiểm soát
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap";
 import "../node_modules/jquery/dist/jquery.slim";
